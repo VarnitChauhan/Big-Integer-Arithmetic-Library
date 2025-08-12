@@ -38,7 +38,7 @@ bigint-arithmetic/
 ```bash
 make
 
-RUN THE PROGRAM
+## RUN THE PROGRAM
 ./bigint
 
 CLEAN BUILD FILES
@@ -59,7 +59,7 @@ Remainder: 900000000900000009
 Power (num1^3): 188167637743418398190956269994591
 num1 is less than num2
 
-📖 Implementation Details
+## 📖 Implementation Details
 Representation:
 
 digits → Stores the number as a string
@@ -90,12 +90,12 @@ compareBigInt() → Compare two BigInts
 
 freeBigInt() → Free allocated memory
 
-📌 Requirements
+## 📌 Requirements
 C Compiler (gcc recommended)
 
 Works on Windows, Linux, and macOS
 
-🏗 Future Improvements
+## 🏗 Future Improvements
 Full support for negative numbers in all operations
 
 Faster division & modulo using long division algorithm
@@ -104,11 +104,11 @@ Add modular exponentiation for cryptographic use
 
 Improve performance and memory efficiency
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License – you are free to use, modify, and distribute it.
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 If you find bugs or have suggestions, please open an issue or create a pull request.
 
-👨‍💻 Developed by: Varnit Chauhan
+## 👨‍💻 Developed by: Varnit Chauhan
