@@ -24,11 +24,11 @@ It is useful for **cryptography**, **scientific calculations**, and **academic p
 ## 📂 Project Structure
 bigint-arithmetic/
 │
-├── bigint.c # Implementation of BigInt functions
-├── bigint.h # Header file with BigInt struct & function declarations
-├── main.c # Test program demonstrating the library
-├── Makefile # For compilation & cleanup
-└── README.md # Project documentation
+├── bigint.c # Implementation of BigInt functions<br>
+├── bigint.h # Header file with BigInt struct & function declarations<br>
+├── main.c # Test program demonstrating the library<br>
+├── Makefile # For compilation & cleanup<br>
+└── README.md # Project documentation<br>
 
 ---
 
@@ -40,13 +40,16 @@ make
 
 ## RUN THE PROGRAM
 ./bigint
+---
 
 CLEAN BUILD FILES
 make clean
 
-Sample Input
+##  Sample Input
 Enter first big integer: 123456789123456789
 Enter second big integer: 987654321987654321
+
+---
 
 Sample Output
 Number 1: 123456789123456789
@@ -58,6 +61,8 @@ Quotient: 8
 Remainder: 900000000900000009
 Power (num1^3): 188167637743418398190956269994591
 num1 is less than num2
+
+---
 
 ## 📖 Implementation Details
 Representation:
